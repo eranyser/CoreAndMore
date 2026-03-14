@@ -11,5 +11,5 @@ We will create new Web API progject via VS2026
 
 | | | |
 |-|-|-|
-[![Home](../../Documents//images/home_button.svg)](../../README.md) | [![Previous](../../Documents//images/back_button.svg)](./asp.net_core_benefits_02.md) | [![Next](../../Documents//images/next_button.svg)](../../README.md) |
+[![Home](../../Documents/Images/home_button.svg)](../../README.md) | [![Previous](../../Documents/Images/back_button.svg)](./asp.net_core_benefits_02.md) | [![Next](../../Documents/Images/next_button.svg)](../../README.md) |
 | | |
