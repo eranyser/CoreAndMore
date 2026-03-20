@@ -1,4 +1,4 @@
-# ASP.NET-Core-tutorial
+# ASP.NET-Core-Advaced-Topics
 Main concepts in ASP.NET Core
 
 1. [ASP.NET Core definition](./InitialConcepts/Documents/asp.net_core_definition.md) ([Platform vs Framework](./InitialConcepts/Documents/dotnet_platform_vs_framework.md))
