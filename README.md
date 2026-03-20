@@ -11,4 +11,5 @@ Main concepts in ASP.NET Core
 6. [OutOfProcess model](./InitialConcepts/Documents/out_of_process_hosing_model_06.md)
 7. [Kestrel](./InitialConcepts/Documents/Kestrel_07.md)
 8. [launchsettings](./InitialConcepts/Documents/launchsettings_08.md)
+9. [appsettings.json](./InitialConcepts/Documents/appsettings.jaon_09.md)
 
