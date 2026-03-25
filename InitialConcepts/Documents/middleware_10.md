@@ -89,5 +89,5 @@ A middleware component may handle the request and decide not to call the next mi
 
 | | | |
 |-|-|-|
-[![Home](../../Documents/Images/home_button.svg)](../../README.md) | [![Previous](../../Documents/Images/back_button.svg)](./appsettings.jaon_09.md) | [![Next](../../Documents/Images/next_button.svg)](.../../README.md) |
+[![Home](../../Documents/Images/home_button.svg)](../../README.md) | [![Previous](../../Documents/Images/back_button.svg)](./appsettings.jaon_09.md) | [![Next](../../Documents/Images/next_button.svg)](./static_files_11.md) |
 | | | 
