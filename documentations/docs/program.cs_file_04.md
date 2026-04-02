@@ -17,9 +17,3 @@ ASP.NET core application initially starts as a console application and the Mai
  - The handler return value (string) is written to the response body with appropriate headers by the framework.
  - CreateBuilder + Build apply many framework defaults (routing middleware, DI, logging, configuration) so you don't have to call ```UseRouting()``` or similar manually for this minimal setup.
 
-
-
-| | | |
-|-|-|-|
-[![Home](../../Documents/Images/home_button.svg)](../../README.md) | [![Previous](../../Documents/Images/back_button.svg)](./creating_new_web_api_project_03.md) | [![Next](../../Documents/Images/next_button.svg)](./in_process_hosting_model_05.md) |
-| | |

@@ -24,7 +24,3 @@ With InProcess hosting, there is only one web server and that is the IIS server 
 - To get the process name executing the app, use ```System.Diagnostics.Process.GetCurrentProcess().ProcessName```
 - When we are run the project from Visual Studio it uses IISExpress by default.
 
-| | | |
-|-|-|-|
-[![Home](../../Documents/Images/home_button.svg)](../../README.md) | [![Previous](../../Documents/Images/back_button.svg)](./program.cs_file_04.md) | [![Next](../../Documents/Images/next_button.svg)](./out_of_process_hosing_model_06.md) |
-| | |
