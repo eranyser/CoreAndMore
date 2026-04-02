@@ -9,7 +9,7 @@ Kestrel can be used, by itself as an edge server i.e Internet-facing web server 
 When we run a .NET Core application using the .NET Core CLI (Command-Line Interface), the application uses Kestrel as the web server. 
 
 With ***OutOfProcess*** Hosting model, Kestrel can be used in one of the following 2 ways:
-- [Stand-alone Web Server](./Kestrel_stand_alone_07_1.md).
-- [Together with a *Reverse Proxy* server](./Kestrel_with_reverse_proxy_07_02.md).
+- [Stand-alone Web Server](./07_01_kestrel_stand_alone.md).
+- [Together with a *Reverse Proxy* server](./07_02_Kestrel_with_reverse_proxy.md).
 
 

@@ -1,3 +1,7 @@
+---
+id: aspnet-core-benefits-02
+title: ASP.NET Core Benefits - Continue
+---
 # Benefits and Features
 
 - Support out of the box Dependency Injection

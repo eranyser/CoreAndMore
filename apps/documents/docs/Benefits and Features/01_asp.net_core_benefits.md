@@ -1,3 +1,8 @@
+---
+id: aspnet-core-benefits-01
+title: ASP.NET Core Benefits
+---
+
 # Benefits and Features
 
 ### Cross Platform
