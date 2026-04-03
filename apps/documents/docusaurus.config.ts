@@ -46,7 +46,7 @@ const config: Config = {
           editUrl:
             'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
         },
-        blog: {
+        blog: false, /*{
           showReadingTime: true,
           feedOptions: {
             type: ['rss', 'atom'],
@@ -60,7 +60,7 @@ const config: Config = {
           onInlineTags: 'warn',
           onInlineAuthors: 'warn',
           onUntruncatedBlogPosts: 'warn',
-        },
+        },*/
         theme: {
           customCss: './src/css/custom.css',
         },
@@ -87,9 +87,10 @@ const config: Config = {
           position: 'left',
           label: 'Tutorial',
         },
-        {to: '/blog', label: 'Blog', position: 'left'},
+        //{to: '/blog', label: 'Blog', position: 'left'},
         {
-          href: 'https://github.com/facebook/docusaurus',
+          //href: 'https://github.com/facebook/docusaurus',
+          href: 'https://github.com/eranyser/ASP.NET-Core-Advanced-Topics',
           label: 'GitHub',
           position: 'right',
         },
