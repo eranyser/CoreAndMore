@@ -75,9 +75,9 @@ const config: Config = {
       items: [
         {
           type: 'docSidebar',
-          sidebarId: 'tutorialSidebar',
+          sidebarId: 'knowledgeHubSidebar',
           position: 'left',
-          label: 'Tutorial',
+          label: 'Knowledge Hub',
         },
         //{to: '/blog', label: 'Blog', position: 'left'},
         {
@@ -95,11 +95,12 @@ const config: Config = {
           title: 'Docs',
           items: [
             {
-              label: 'Tutorial',
-              to: '/docs/intro',
+              label: 'Knowledge Hub',
+              to: '/docs/definition',
             },
           ],
         },
+        /*
         {
           title: 'Community',
           items: [
@@ -116,7 +117,7 @@ const config: Config = {
               href: 'https://x.com/docusaurus',
             },
           ],
-        },
+        },*/
         {
           title: 'More',
           items: [

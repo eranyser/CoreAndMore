@@ -1,18 +1,46 @@
-# ASP.NET-Core-Advaced-Topics
-Main concepts in ASP.NET Core
+# 🚀 ASP.NET Core Knowledge Hub
 
-1. [ASP.NET Core definition](./InitialConcepts/Documents/asp.net_core_definition.md) ([Platform vs Framework](./InitialConcepts/Documents/dotnet_platform_vs_framework.md))
-2. ASP.NET Core benefits
-    - [Unified Programming Model](./InitialConcepts/Documents/asp.net_core_benefits_01.md)
-    - [More Features](./InitialConcepts/Documents/asp.net_core_benefits_02.md)
-3. [Creating a new Project](./InitialConcepts/Documents/creating_new_web_api_project_03.md)
-4. [Program.cs file](/InitialConcepts/Documents/program.cs_file_04.md)
-5. [InProcess model](./InitialConcepts/Documents/in_process_hosting_model_05.md)
-6. [OutOfProcess model](./InitialConcepts/Documents/out_of_process_hosing_model_06.md)
-7. [Kestrel](./InitialConcepts/Documents/Kestrel_07.md)
-8. [launchsettings](./InitialConcepts/Documents/launchsettings_08.md)
-9. [appsettings.json](./InitialConcepts/Documents/appsettings.jaon_09.md)
-10. [Middleware](./InitialConcepts/Documents/middleware_10.md)
-11. [Static Files](./InitialConcepts/Documents/static_files_11.md)
-12. [Developer Exeption Page](./InitialConcepts/Documents/dev_exp_page_12.md)
-13. [Envirionment Variables](./InitialConcepts/Documents/env_variables_13.md)
+A curated collection of essential topics, patterns, and practical insights for working with ASP.NET Core.
+
+This project serves as both a personal knowledge base and a public resource for developers who want to strengthen their understanding of ASP.NET Core fundamentals and beyond.
+
+### 📌 About
+
+When working with ASP.NET Core, there are many concepts that every developer should know—but are often scattered across documentation, blog posts, and real-world experience.
+
+This repository brings those topics together in one place.
+
+It includes:
+
+ - Clear explanations of core concepts
+ - Practical examples and use cases
+ - Notes and insights gathered from hands-on experience
+ - Structured, easy-to-navigate documentation
+
+### 🎯 Purpose
+
+ - 📖 Reinforce and organize my own knowledge
+ - 🧭 Provide a quick reference for everyday development
+ - 🤝 Share useful content with the developer community
+
+### 🧩 Topics Covered
+
+Some of the areas you’ll find here:
+
+### 🌐 Live Site
+
+You can explore the content here: 👉 [Visit the Documentation Site](https://eranyser.github.io/ASP.NET-Core-Advanced-Topics/)
+
+###💡 Who Is This For?
+ - Developers new to ASP.NET Core
+ - Developers preparing for interviews
+ - Experienced developers looking for a quick refresher
+ - Anyone who wants a structured view of important concepts
+
+### ⚠️ Notes
+
+This is an evolving project. Content may be updated, refined, or expanded over time as I continue learning and gaining experience.
+
+### 📬 Contributions
+
+This project is primarily personal, but suggestions, corrections, and discussions are always welcome.
