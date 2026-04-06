@@ -41,6 +41,19 @@ const config: Config = {
 
   themes: ['@docusaurus/theme-mermaid'],
 
+  plugins: [
+    [
+      require.resolve('@easyops-cn/docusaurus-search-local'),
+      {
+        // Build-time index shipped with the static site (works on GitHub Pages)
+        indexDocs: true,
+        indexBlog: false,
+        indexPages: false,
+        language: ['en'],
+      },
+    ],
+  ],
+
   presets: [
     [
       'classic',
@@ -80,6 +93,7 @@ const config: Config = {
           label: 'Knowledge Hub',
         },
         //{to: '/blog', label: 'Blog', position: 'left'},
+        {type: 'search', position: 'right'},
         {
           //href: 'https://github.com/facebook/docusaurus',
           href: 'https://github.com/eranyser/ASP.NET-Core-Advanced-Topics',

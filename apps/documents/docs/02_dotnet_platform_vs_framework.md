@@ -7,9 +7,7 @@ the **correct current terminology**.
 
 ### 1️⃣ .NET (current name of the platform)
 
-Today the framework/platform is simply called:
-
-**.NET**
+Today the platform is simply called **.NET**
 
 Starting with **.NET 5 (2020)**, Microsoft **dropped the word "Core"**
 and unified everything under **.NET**.
@@ -22,7 +20,7 @@ Examples:
 - .NET 9
 
 So when someone says **".NET" today**, they usually mean the modern
-cross‑platform runtime and libraries.
+cross‑platform **runtime and libraries**.
 
 ------------------------------------------------------------------------
 

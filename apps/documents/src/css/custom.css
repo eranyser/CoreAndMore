@@ -32,3 +32,9 @@
 .hero--primary {
   background-color: #add8e6; /* light blue */
 }
+
+/* When the same footnote is referenced multiple times, Docusaurus renders one
+   “back to content” arrow per reference. Keep the first arrow, hide the rest. */
+section[data-footnotes] a.data-footnote-backref ~ a.data-footnote-backref {
+  display: none;
+}
