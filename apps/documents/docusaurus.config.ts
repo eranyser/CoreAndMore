@@ -50,6 +50,7 @@ const config: Config = {
         indexBlog: false,
         indexPages: false,
         language: ['en'],
+        highlightSearchTermsOnTargetPage: true,
       },
     ],
   ],
