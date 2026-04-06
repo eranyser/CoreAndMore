@@ -33,6 +33,15 @@
   background-color: #add8e6; /* light blue */
 }
 
+/* Larger navbar logo */
+.navbar__logo {
+  height: 3.75rem;
+}
+.navbar__logo img {
+  height: 100%;
+  width: auto;
+}
+
 /* When the same footnote is referenced multiple times, Docusaurus renders one
    “back to content” arrow per reference. Keep the first arrow, hide the rest. */
 section[data-footnotes] a.data-footnote-backref ~ a.data-footnote-backref {
