@@ -18,12 +18,12 @@ const config: Config = {
   url: 'https://eranyser.github.io',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/ASP.NET-Core-Advanced-Topics/',
+  baseUrl: '/CoreAndMore/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
   organizationName: 'eranyser', // Usually your GitHub org/user name.
-  projectName: 'ASP.NET-Core-Advanced-Topics', // Usually your repo name.
+  projectName: 'CoreAndMore', // Usually your repo name.
 
   onBrokenLinks: 'throw',
 
@@ -64,7 +64,7 @@ const config: Config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/eranyser/ASP.NET-Core-Advanced-Topics/tree/main/apps/documents/',
+            'https://github.com/eranyser/CoreAndMore/tree/main/apps/documents/',
         },
         blog: false,
         theme: {
@@ -97,7 +97,7 @@ const config: Config = {
         {type: 'search', position: 'right'},
         {
           //href: 'https://github.com/facebook/docusaurus',
-          href: 'https://github.com/eranyser/ASP.NET-Core-Advanced-Topics',
+          href: 'https://github.com/eranyser/CoreAndMore',
           label: 'GitHub',
           position: 'right',
         },
@@ -138,7 +138,7 @@ const config: Config = {
           items: [
             {
               label: 'GitHub',
-              href: 'https://github.com/eranyser/ASP.NET-Core-Advanced-Topics',
+              href: 'https://github.com/eranyser/CoreAndMore',
             },
           ],
         },

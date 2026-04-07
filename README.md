@@ -29,7 +29,7 @@ Some of the areas you’ll find here:
 
 ### 🌐 Live Site
 
-You can explore the content here: 👉 [Visit the Documentation Site](https://eranyser.github.io/ASP.NET-Core-Advanced-Topics/)
+You can explore the content here: 👉 [Visit the Documentation Site](https://eranyser.github.io/CoreAndMore/)
 
 ###💡 Who Is This For?
  - Developers new to ASP.NET Core
