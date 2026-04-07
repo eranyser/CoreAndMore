@@ -12,7 +12,6 @@ ASP.NET core application initially starts as a console application and the Mai
 ### Notes / behavior summary
  - MapGet is provided by ASP.NET Core and extends WebApplication. 
     - It registers an HTTP GET endpoint in the application's routing system.
-    - 
  - MapGet only configures the handler; ```Run()``` actually starts the server.
  - The handler return value (string) is written to the response body with appropriate headers by the framework.
  - CreateBuilder + Build apply many framework defaults (routing middleware, DI, logging, configuration) so you don't have to call ```UseRouting()``` or similar manually for this minimal setup.
