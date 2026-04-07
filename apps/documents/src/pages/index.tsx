@@ -21,7 +21,7 @@ function HomepageHeader() {
           <Link
             className="button button--secondary button--lg"
             to="/docs/definition">
-            ASP.NET Core Web Application - 5min ⏱️
+            ASP.NET Core Web Application - 🧑‍💻
           </Link>
         </div>
       </div>

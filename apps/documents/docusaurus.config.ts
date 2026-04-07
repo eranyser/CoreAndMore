@@ -5,8 +5,8 @@ import type * as Preset from '@docusaurus/preset-classic';
 // This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
 
 const config: Config = {
-  title: 'ASP.NET Core Advanced Topics',
-  tagline: 'Main concepts in ASP.NET Core',
+  title: 'ASP.NET Core And More',
+  tagline: 'Main concepts in ASP.NET Core and more',
   favicon: 'img/favicon.ico',
 
   // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
