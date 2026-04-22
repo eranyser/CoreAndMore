@@ -1,34 +1,29 @@
-@ToDoItems_HostAddress = https://localhost:7279
+@HostAddress = https://localhost:7279
 
-GET {{ToDoItems_HostAddress}}/weatherforecast/
-Accept: application/json
-
-###
-
-GET {{ToDoItems_HostAddress}}/todoitems
+GET {{HostAddress}}/todoitems
 
 ###
 
-POST {{ToDoItems_HostAddress}}/todoitems
+POST {{HostAddress}}/todoitems
 Content-Type: application/json
 
-"brush my teeth"
+"Go to eat"
 
 ###
 
-PUT {{ToDoItems_HostAddress}}/todoitems/0
+PUT {{HostAddress}}/todoitems/2
 Content-Type: application/json
 
-"brush my teeth"
+"brush my hands"
 
 ###
 
-DELETE {{ToDoItems_HostAddress}}/todoitems/0
+DELETE {{HostAddress}}/todoitems/0
 
 ###
 
-GET {{ToDoItems_HostAddress}}/todoitems/sorted?sortOrder=asc
+GET {{HostAddress}}/todoitems/sorted?sortOrder=asc
 
 ###
 
-GET {{ToDoItems_HostAddress}}/todoitems/sorted?sortOrder=desc
+GET {{HostAddress}}/todoitems/sorted?sortOrder=desc
