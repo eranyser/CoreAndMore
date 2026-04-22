@@ -48,6 +48,22 @@ const config: Config = {
   themes: ['@docusaurus/theme-mermaid'],
 
   plugins: [
+    function webpackWarningFiltersPlugin() {
+      return {
+        name: 'webpack-warning-filters',
+        configureWebpack() {
+          return {
+            ignoreWarnings: [
+              {
+                message:
+                  /Critical dependency: require function is used in a way in which dependencies cannot be statically extracted/,
+                module: /vscode-languageserver-types[\\/]lib[\\/]umd[\\/]main\.js/,
+              },
+            ],
+          };
+        },
+      };
+    },
     [
       require.resolve('@easyops-cn/docusaurus-search-local'),
       {
