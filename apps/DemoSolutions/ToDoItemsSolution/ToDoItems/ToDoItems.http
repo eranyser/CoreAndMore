@@ -1,29 +1,42 @@
-@HostAddress = https://localhost:7279
+@ToDoItems_HostAddress = https://localhost:7279
 
-GET {{HostAddress}}/todoitems
+GET {{ToDoItems_HostAddress}}/api/todo-items
 
 ###
 
-POST {{HostAddress}}/todoitems
+POST {{ToDoItems_HostAddress}}/api/todo-items
+Content-Type: application/json
+{
+    "description": "Wash your hands",
+    "assignedTo": "Ben Mitelman"
+}
+
+###
+
+@index=0
+PUT {{ToDoItems_HostAddress}}/api/todo-items/{{index}}
 Content-Type: application/json
 
-"Go to eat"
+{
+    "description": "Wash your hands",
+    "assignedTo": "Ben Mitelman"
+}
 
 ###
 
-PUT {{HostAddress}}/todoitems/2
-Content-Type: application/json
-
-"brush my hands"
+GET {{ToDoItems_HostAddress}}/api/todo-items/{{index}}
 
 ###
 
-DELETE {{HostAddress}}/todoitems/0
+DELETE {{ToDoItems_HostAddress}}/api/todo-items/{{index}}
 
 ###
 
-GET {{HostAddress}}/todoitems/sorted?sortOrder=asc
+@sortOrder=asc
+GET {{ToDoItems_HostAddress}}/api/todo-items/sorted?sortOrder={{sortOrder}}
 
 ###
 
-GET {{HostAddress}}/todoitems/sorted?sortOrder=desc
+GET {{ToDoItems_HostAddress}}/api/todo-items/sorted?sortOrder=desc
+
+###

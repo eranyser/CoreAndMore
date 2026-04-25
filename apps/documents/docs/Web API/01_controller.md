@@ -168,6 +168,8 @@
     }
     ```
 
+🟢 Currenly we maintained a list of strings, generally we are used to maintain a list of business objects - 👉 [DTO or Data Transfer Object - see here](./01_03_DTO.md) 👈
+
 **Bibliography:**
 
 [Controller in ASP.NET Core](https://www.youtube.com/watch?v=-O0UYM0ZIIc&list=PL6n9fhu94yhVkdrusLaQsfERmL_Jh4XmU&index=20&pp=iAQB)
